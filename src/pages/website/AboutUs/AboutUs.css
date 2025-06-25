@@ -1,0 +1,34 @@
+.about-us{
+    padding-top: 50px;
+    .container{
+        gap: 50px;  
+        flex-direction: column;  
+        .image{
+            flex-basis: 40%;
+            img{
+                width: 100%;
+                border-radius: 20px;
+            }
+        }
+        .info{
+            flex: 1;
+            h3{
+                color: var(--main-color);
+            }
+            h1{
+                max-width: 400px;
+                margin-top: 20px;
+            }
+            p{
+                color: #777;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    @media (min-width:992px) {
+        .container{
+            flex-direction: row;
+        }
+    }
+}

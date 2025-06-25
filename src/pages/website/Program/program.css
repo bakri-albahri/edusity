@@ -1,0 +1,57 @@
+.programs{
+    .box{
+        gap: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        .card{
+            position: relative;
+            color: #fff;
+            img{
+                width: 100%;
+                border-radius: 20px;
+            }
+            &:hover{
+                .info{
+                opacity: 1;    
+                padding-top: 0;
+                }
+            }
+            .info{
+                border-radius: 20px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0, 15, 152, 0.3);
+                flex-direction: column;
+                cursor: pointer;
+                opacity: 0;
+                padding-top: 70%;
+                transition: var(--main-transition);
+                img{
+                    width: 60px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        
+        @media (min-width:768px) {
+            flex-direction: row;
+            .card{
+                flex-basis: 45%;
+            }
+        }
+        
+        
+        @media (min-width:1200px) {
+            .card{
+                flex-basis: 30%;
+            }
+        }
+
+
+    }
+}
