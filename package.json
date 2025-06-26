@@ -1,16 +1,16 @@
 {
   "name": "frontend",
+  "homepage": "https://bakri-albahri.github.io/edusity",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://bakri-albahri.github.io/edusity",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",

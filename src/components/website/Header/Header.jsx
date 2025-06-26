@@ -15,12 +15,12 @@ const Header = (props) => {
         <div className="container">
                 <img className="logo" src={logo} alt="logoImg" />
                 <ul className={mobMenu ? "open-menu" : ""}>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/program">Program</Link></li>
-                    <li><Link to="/about">About Us</Link></li>
-                    <li><Link to="/campus">Campus</Link></li>
-                    <li><Link to="/testimonials">Testimonials</Link></li>
-                    <li><Link className='btn' to="/contactus">Contact Us</Link></li>
+                    <li><Link to="/edusity">Home</Link></li>
+                    <li><Link to="/edusity/program">Program</Link></li>
+                    <li><Link to="/edusity/about">About Us</Link></li>
+                    <li><Link to="/edusity/campus">Campus</Link></li>
+                    <li><Link to="/edusity/testimonials">Testimonials</Link></li>
+                    <li><Link className='btn' to="/edusity/contactus">Contact Us</Link></li>
                     {/* <li><button className='btn' to="/contactus">Contact Us</button></li> */}
                 </ul>
                 <img className="icon" src={menu_icon}  alt='menu-icon' onClick={handleMenu}/>

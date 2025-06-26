@@ -17,9 +17,9 @@ const ContactUs = () => {
 
                 <h3>Send us a message <img src={msg_img} alt="msg-img" /></h3>
                 <p>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.</p>
-                <div className="info"><i class="fa-solid fa-envelope"></i> Contact@GreatStack.dev</div>
-                <div className="info"><i class="fa-solid fa-phone-volume"></i> +1 123-456-7890</div>
-                <div className="info"><i class="fa-solid fa-location-dot"></i> 77 Massachusetts Ave, Cambridge</div>
+                <div className="info"><i className="fa-solid fa-envelope"></i> Contact@GreatStack.dev</div>
+                <div className="info"><i className="fa-solid fa-phone-volume"></i> +1 123-456-7890</div>
+                <div className="info"><i className="fa-solid fa-location-dot"></i> 77 Massachusetts Ave, Cambridge</div>
 
             </div>
 
